@@ -1,0 +1,3 @@
+class TopYcCompanies::Company
+
+end

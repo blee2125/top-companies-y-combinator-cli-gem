@@ -15,19 +15,18 @@ class TopYcCompanies::CLI
 
     if input.to_i.between?(1, 100)
       puts "good choice"
+      
     elsif input.downcase == "exit"
         puts "Have a nice day!"
     else
       puts "Try again!"
       list_companies
     end
-
     # while input != "exit"
     # input= gets.strip.downcase
     #
     # end
     # input= gets.strip.to_i
-
   end
 
   def print_company(company)

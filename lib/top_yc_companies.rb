@@ -1,6 +1,3 @@
-require "top_yc_companies/version"
 
-module TopYcCompanies
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "./top_yc_companies/version"
+require_relative "./top_yc_companies/cli"

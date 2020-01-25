@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
-require "./lib/top_yc_companies"
+
+require_relative '../lib/top_yc_companies'
 TopYcCompanies::CLI.new.call

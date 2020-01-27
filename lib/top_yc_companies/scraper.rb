@@ -8,4 +8,10 @@ class TopYcCompanies::Scraper
     self.list_page.css("tbody.main-companies")
   end
 
+  def make_company
+    scrape_page.each do |c|
+      TopYcCompanies::Company.new_company(c)
+    end
+  end
+
 end

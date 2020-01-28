@@ -1,8 +1,6 @@
-# TopYcCompanies
+# Top Companies From Y Combinator
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/top_yc_companies`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+The top_yc_companies Ruby Gem allows a person to view a brief summary of Top Companies at Y Combinator through a command-line interface(CLI). 
 
 ## Installation
 
@@ -20,10 +18,6 @@ Or install it yourself as:
 
     $ gem install top_yc_companies
 
-## Usage
-
-TODO: Write usage instructions here
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
@@ -32,7 +26,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/'favorable-device-5158'/top_yc_companies.
+Bug reports and pull requests are welcome on GitHub at https://github.com/blee2125/top_yc_companies.
 
 ## License
 

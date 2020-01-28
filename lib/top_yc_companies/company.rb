@@ -19,7 +19,7 @@ class TopYcCompanies::Company
       c.css("a").attribute("href").text,
       c.css("td.sectors").text,
       c.css("td.td-description p.margin-bottom-22").text,
-      c.css("td.apply a").attribute("href").text
+      #c.css("td.apply a").attribute("href").text
       )
   end
 

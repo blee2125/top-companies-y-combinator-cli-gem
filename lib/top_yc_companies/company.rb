@@ -19,14 +19,13 @@ class TopYcCompanies::Company
       c.css("a").attribute("href").text,
       c.css("td.sectors").text,
       c.css("td.td-description p.margin-bottom-22").text,
-      c.css("").text
-      binding.pry
+      c.css("td.apply a").attribute("href").text
       )
   end
 
 
-  def self.company_number(number)
-    self.all[number-1]
+  def self.find(input)
+    self.all[input-1]
   end
 
   def self.all

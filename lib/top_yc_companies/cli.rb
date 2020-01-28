@@ -4,6 +4,7 @@ class TopYcCompanies::CLI
     TopYcCompanies::Scraper.new.make_company
     puts "TOP COMPANIES FROM Y COMBINATOR"
     #greeting
+    binding.pry
     choose_companies
   end
 
@@ -15,15 +16,15 @@ class TopYcCompanies::CLI
   # end
 
   def choose_companies
-    puts "Choose from 1 - 100 to view a list of companies:"
+    puts "Choose from 1 - 100 to view a company:"
     puts "  Type 'exit' to quit."
     input = gets.strip
 
     if input.to_i.between?(1, 100)
       puts "good choice"
-      binding.pry
+
       company= TopYcCompanies::Company.find(input.to_i)
-      print_company
+      print_company(company)
     elsif input.downcase == "exit"
         puts "Have a nice day!"
     else
@@ -32,7 +33,7 @@ class TopYcCompanies::CLI
     end
   end
 
-  def print_company
+  def print_company(company)
     puts "print company works #{company.name}"
   end
   # def print_company(company)
@@ -44,8 +45,8 @@ class TopYcCompanies::CLI
   #   puts "Apply For A Job: #{company.jobs_url}"
   # end
   def print_list
-    TopYcCompanies::Company.all.each.with_index(company) do |company, index|
-      puts "#{index+1}. #{company.name}"
+    TopYcCompanies::Company.all.each.with_index do |c, index|
+      puts "#{index+1}. #{c.name}"
     end
   end
 end

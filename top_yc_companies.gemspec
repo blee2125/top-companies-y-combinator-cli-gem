@@ -6,7 +6,7 @@ require "top_yc_companies/version"
 Gem::Specification.new do |spec|
   spec.name          = "top_yc_companies"
   spec.version       = TopYcCompanies::VERSION
-  spec.authors       = ["'favorable-device-5158'"]
+  spec.authors       = ["Brandon Lee"]
   spec.email         = ["'blee2125@gmail.com'"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}

@@ -4,19 +4,17 @@ The top_yc_companies Ruby Gem allows a person to view a brief summary of Top Com
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Clone or download the repo:
 
-```ruby
-gem 'top_yc_companies'
-```
+    $ git clone https://github.com/blee2125/top-companies-y-combinator-cli-gem.git
 
-And then execute:
+Change directories to “./top-companies-y-combinator-cli-gem”:
 
-    $ bundle
+    $ cd top-companies-y-combinator-cli-gem
 
-Or install it yourself as:
+To start the program:
 
-    $ gem install top_yc_companies
+    $ ./bin/top-yc-companies
 
 ## Development
 

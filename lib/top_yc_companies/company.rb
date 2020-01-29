@@ -2,6 +2,7 @@ class TopYcCompanies::Company
   attr_accessor :name, :hq, :website, :sector, :overview, :jobs_url
   @@all= []
 
+  #makes and saves a new object in @@all
   def initialize(name=nil, hq=nil, website=nil, sector=nil, overview=nil, jobs_url=nil)
     @name= name
     @hq= hq
@@ -12,6 +13,7 @@ class TopYcCompanies::Company
     @@all << self
   end
 
+  #new_company will organize the elements that will be used by initialize
   def self.new_company(c)
     self.new(
       c.css("b.h4").text,
@@ -23,11 +25,12 @@ class TopYcCompanies::Company
       )
   end
 
-
+  #finds an object by index number
   def self.find(input)
     self.all[input-1]
   end
 
+  #returns @@all array
   def self.all
     @@all
   end

@@ -1,6 +1,8 @@
 # Top Companies From Y Combinator
 
-The top_yc_companies Ruby Gem allows a person to view a brief summary of Top Companies at Y Combinator through a command-line interface(CLI). 
+The top_yc_companies Ruby Gem allows a person to view a brief summary of Top Companies at Y Combinator through a command-line interface(CLI).
+
+![image](https://github.com/blee2125/top-companies-y-combinator-cli-gem/blob/master/print%20company%20screenshot.png)
 
 ## Installation
 

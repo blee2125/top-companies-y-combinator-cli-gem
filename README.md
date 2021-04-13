@@ -31,3 +31,10 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/blee21
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Demo
+
+After starting the program, the user will be presented with a list of companies. They can then choose a company by number to get more information.
+
+![image](https://github.com/blee2125/top-companies-y-combinator-cli-gem/blob/master/cli.gif)
+
